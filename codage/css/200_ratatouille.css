@@ -1,0 +1,47 @@
+body {
+	 margin: 0;
+}
+
+.header {
+	background-image: url("../../ressources/200_ratatouille/img/200_header.png");   
+	border: 0;
+	width: 1500px;
+	height: 400px;
+	margin: 0;
+}
+
+.sub_header1 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: xx-large;
+  color: white;
+  padding-top: 90px;
+  padding-bottom: 45px;
+  width:100%
+}
+
+.sub_header2 {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
+  color: white;
+}
+
+.main_content p {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 25px;
+  padding-left: 35%;
+  padding-right: 35%;
+  font-family: "Times New Roman", Georgia, Serif;
+  color: grey;
+}
+
+.main_content h2 {
+ width: 100%;
+ font-style: italic;
+ font-family: 'Raleway', sans-serif;
+ padding-top: 30px;
+ font-size: x-large;
+ text-align: center;
+}

@@ -1,0 +1,166 @@
+body{
+  text-align: center;
+  min-width: 1210px;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+p{
+  text-align: justify;
+  text-align-last:center;
+  line-height: 150%;
+}
+h1{
+    margin-top: 200px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    color: white;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+h2{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 250px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  font-size: 50px;
+}
+h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-style: italic;
+}
+header{
+  background-image: url(../../ressources/100_homepage/img/01_header.png);
+  background-size: cover;
+  padding-top: 20px;
+}
+.homepage_text {
+  width:450px;
+  height: 450px;
+  background-color: #f5f6f0;
+  text-align: center;
+  display: inline-block;
+}
+.homepage_text p{
+  margin: 0 65px 50px 65px;
+  color: #515148;
+}
+.small_bar{
+  border: solid 1px;
+  height: 0px;
+  width: 80px;
+  margin: 0px auto 40px auto;
+
+}
+.homepage_text_btn{
+  margin: 0 120px 0 120px;
+  padding: 8px 30px 8px 30px;
+  border: solid 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #515148;
+}
+.homepage_ratatouille{
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+.homepage_ratatouille img{
+  height: 450px;
+  display: inline-block;
+  float: right;
+}
+.homepage_recette{
+  background-image: url(../../ressources/100_homepage/img/03_Linguini.png);
+}
+.homepage_recette img{
+  margin-top: 10px;
+  height: 100px;
+}
+.homepage_recette h3{
+  color: white;
+  margin-bottom: 10px;
+  padding-top: 50px;
+}
+.homepage_recette p{
+  margin-top: 1px;
+}
+.sucre_sale{
+  height: 250px;
+  width: 400px;
+  display: inline-block;
+  margin-bottom: 60px;
+}
+.recette_btn{
+  color: white;
+  background-color: grey;
+  margin: 20px 60px 20px 60px;
+  padding: 8px 30px 8px 30px;
+  border: solid 3px;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: lighter;
+}
+.vertical_bar{
+  height:200px;
+  width: 0px;
+  border: 1px white solid;
+  display: inline-block;
+}
+.homepage_Gusteau{
+  padding-top: 80px;
+}
+.homepage_Gusteau img{
+  height: 450px;
+  width: 700px;
+  display: inline-block;
+  float: left;
+}
+.foot{
+  background-color: #191919;
+  color: white;
+}
+.foot h3{
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 24px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.foot img{
+  height: 250px;
+  margin-top: 30px;
+  float: right;
+}
+.footer1{
+  width: 350px;
+  height: 165px;
+  display: inline-block;
+  margin-top: 80px;
+  margin-bottom: 30px;
+
+}
+.localisation{
+  width: 350px;
+  height: 165px;
+  display: inline-block;
+  border-left: solid 1px white;
+  border-right: solid 1px white;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.white_small_bar{
+  border: solid 1px white;
+  height: 0px;
+  width: 60px;
+  margin: 1px auto 35px auto;
+}
+#copyright{
+  font-size: 8px;
+  margin: 0;
+}
