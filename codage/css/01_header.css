@@ -1,18 +1,13 @@
 body{
-  margin: 0;
   font-family: 'Raleway', sans-serif;
+  min-width: 960px;
 }
 
 .menu{
   height: 50px;
   align-items: center;
-  text-align: center;
-  width: 100%;
   margin-bottom: 5px;
-  position: fixed;
-  top: 0px;
   background-color: white;
-  z-index: 100;
   display: flex;
   justify-content: space-evenly;
 }

@@ -1,8 +1,9 @@
 body{
   text-align: center;
-  min-width: 1210px;
+  min-width: 960px;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  width:100%;
 }
 p{
   text-align: justify;
@@ -69,12 +70,13 @@ header{
   margin-bottom: 80px;
 }
 .homepage_ratatouille img{
-  height: 450px;
+  width: 50%;
   display: inline-block;
   float: right;
 }
 .homepage_recette{
   background-image: url(../../ressources/100_homepage/img/03_Linguini.png);
+  background-size: cover;
 }
 .homepage_recette img{
   margin-top: 10px;
