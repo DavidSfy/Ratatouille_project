@@ -1,12 +1,11 @@
 body{
-  min-width: 1300px;
+  min-width: 960px;
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
-header {
-  min-width: 1300px;
-  padding-top: 10px;
-  font-family: 'Raleway', sans-serif;
+.wrapper{
+  min-width: 960px;
+  margin: 0 auto;
 }
 p{
   text-align: center;
@@ -14,14 +13,14 @@ p{
 }
 h1{
   margin: 0;
-    text-align: center;
-    letter-spacing: 0.5px;
-    font-weight: 900;
-    font-size: 50px;
-    text-transform: uppercase;
-    color: white;
-    padding-top: 100px;
-    padding-bottom: 50px;
+  text-align: center;
+  letter-spacing: 0.5px;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 h2{
   text-align: center;
@@ -38,142 +37,33 @@ h3{
 }
 .titre_recette {
   background-image: url("../../ressources/500_savoirs/img/05_header.png");
-  width: 100%;
-  margin: 0;
+  background-size: cover;
 }
 
 /* CORPS */
-.text{
-  width: 70%;
-  text-align: center;
-  margin: 70px auto 75px auto;
+.image{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
-.left{
-  width: 450px;
-  margin-left: 225px;
-  float:left;
+.image img{
+  position: relative;
+  width:400px;
+  height:300px;
   margin-bottom: 50px;
 }
-.right{
-  margin-left: 725px;
+.image h3{
+  position:absolute;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  top: 600;
+  left:350;
+  width: 400px;
+  height:300px;
+  z-index: 1;
 }
-.left h3{
-  padding-top: 125px;
-}
-.right h3{
-  padding-top: 125px;
-}
-.imagel1{
-  height: 300px;
-  width: 450px;
-  background-image: url("../../ressources/500_savoirs/img_a_travailler/legumes.jpg");
-  margin-bottom: 30px;
-  background-size: 100%;
-  color:white;
-  text-transform: uppercase;
-  filter:grayscale();
-}
-.imagel1:hover{
-  filter: none;
-}
-.imagel2{
-  height: 300px;
-  width: 450px;
-  background-image: url("../../ressources/500_savoirs/img_a_travailler/legumes.jpg");
-  margin-bottom: 30px;
-  background-size: 450px;
-  color:white;
-  text-transform: uppercase;
-  filter:grayscale();
-}
-.imagel2:hover{
-  filter: none;
-}
-.imagel3{
-  height: 300px;
-  width: 450px;
-  background-image: url("../../ressources/500_savoirs/img_a_travailler/condiments.jpg");
-  margin-bottom: 30px;
-  background-size: 100%;
-  color:white;
-  text-transform: uppercase;
-  filter:grayscale();
-}
-.imagel3:hover{
-  filter: none;
-}
-.imager1{
-  height: 300px;
-  width: 450px;
-  background-image: url("../../ressources/500_savoirs/img_a_travailler/legumes.jpg");
-  margin-bottom: 30px;
-  background-size: 450px;
-  color:white;
-  text-transform: uppercase;
-  filter:grayscale();
-}
-.imager1:hover{
-  filter: none;
-}
-.imager2{
-  height: 300px;
-  width: 450px;
-  background-image: url("../../ressources/500_savoirs/img_a_travailler/laitages.jpg");
-  margin-bottom: 30px;
-  background-size: 600px;
-  color:white;
-  text-transform: uppercase;
-  filter:grayscale();
-}
-.imager2:hover{
-  filter: none;
-}
-.imager3{
-  height: 300px;
-  width: 450px;
-  background-image: url("../../ressources/500_savoirs/img_a_travailler/ustensiles.jpeg");
-  margin-bottom: 30px;
-  background-size: 450px;
-  color:white;
-  text-transform: uppercase;
-  filter:grayscale();
-}
-.imager3:hover{
-  filter: none;
-}
-/* FOOTER */
-
-.footer{
-  margin-top: 50px;
-  background-color: #191919;
-}
-.footer h3{
-  margin-top: 0px;
-  margin-bottom: 20px;
-}
-.footer p{
-  color: white;
-}
-.footer img{
-  height: 200px;
-  margin-top: 10px;
-  margin-right: 150px;
-  float: right;
-}
-.footer1{
-  width: 500px;
-  display: inline-block;
-  margin: 80px 0 30px 300px;
-  padding-right: 150px;
-  border-right: solid 1px white;
-}
-.white_small_bar{
-  border: solid 1px white;
-  height: 0px;
-  width: 60px;
-  margin: 1px auto 35px auto;
-}
-#copyright{
-  font-size: 8px;
-  margin: 0;
+.text{
+  text-align: center;
+  margin: 50px auto;
 }
