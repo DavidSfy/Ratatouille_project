@@ -37,7 +37,7 @@ h3{
   font-style: italic;
 }
 header{
-  background-image: url(../../ressources/600_contacts/img/06_header.png);
+  background-image: url(../../ressources/200_ratatouille/img/200_header.png);
   background-size: cover;
   padding-top: 20px;
 }
@@ -54,42 +54,42 @@ header{
   overflow: hidden;
   text-align: center;
 }
-.left-50 {
+.left-70 {
   float: left;
-  width: 50%;
+  width: 70%;
 }
-.right-50 {
+.right-70{
+  width: 70%;
   float: right;
-  width: 50%;
+}
+.right-30 {
+  float: right;
+  width: 30%;
+}
+.left-30 {
+  float: left;
+  width: 30%;
 }
 div.clearfix {
   clear:both;
 }
 .homepage_ratatouille {
-  width:450px;
+  width: 80%;
   text-align: center;
   display: inline-block;
   background-color: #f5f6f0;
+  overflow: hidden;
 }
 .homepage_ratatouille p {
   margin: 0 65px 50px 65px;
   color: #515148;
 }
-.right-50 img, .left-50 img {
-  height: 420px;
+.right-30 img, .left-70 img .right-70 img, .left-30 img{
+  height: 350px;
 }
 .small_bar {
   border: solid 1px;
   height: 0px;
   width: 80px;
   margin: 0px auto 40px auto;
-}
-.logo_sociaux {
-  display: flex;
-  margin: 30px 100px;
-}
-.logo_sociaux img{
-  width: 60px;
-  height: auto;
-  margin: auto;
 }
