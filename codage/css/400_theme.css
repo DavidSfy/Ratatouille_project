@@ -36,20 +36,22 @@ h3{
   font-size: 50px;
 }
 .titre_recette {
-  background-image: url("../../ressources/500_savoirs/img/05_header.png");
+  background-image: url("../../ressources/400_themes/img/400_header.png");
   background-size: cover;
 }
 
 /* CORPS */
 .image{
+  max-width: 960px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin: 0 auto;
 }
 .image img{
   position: relative;
   width:400px;
-  height:300px;
+  height:400px;
   margin-bottom: 50px;
 }
 .image h3{
