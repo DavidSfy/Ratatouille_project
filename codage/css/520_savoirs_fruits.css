@@ -4,7 +4,7 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 .wrapper{
-  width: 960px;
+  min-width: 960px;
   margin: 0 auto;
 }
 p{
@@ -36,7 +36,7 @@ h3{
   font-size: 50px;
 }
 .titre_recette {
-  background-image: url("../../ressources/310_recettes_salees/img/310_header.png");
+  background-image: url("../../ressources/500_savoirs/img/05_header.png");
   background-size: cover;
 }
 
@@ -46,17 +46,11 @@ h3{
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
-.image  a{
-  color: black;
-  text-decoration: none;
-  font-size: 24px;
-  margin-bottom: 80px;
-}
 .image img{
   position: relative;
   width:400px;
   height:300px;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .image h3{
   position:absolute;
@@ -73,4 +67,47 @@ h3{
   text-align: center;
   margin: 50px auto;
   max-width: 70%;
+
+}
+
+.fruits {
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f5f6f0;
+  overflow: hidden;
+}
+.fruits p {
+  margin: 0 65px 50px 65px;
+  color: #515148;
+}
+
+.right-30 img, .left-70 img .right-70 img, .left-30 img{
+  height: 350px;
+}
+
+.wrapper{
+  min-width: 960px;
+  margin: 50px auto;
+  overflow: hidden;
+  text-align: center;
+}
+.left-70 {
+  float: left;
+  width: 70%;
+}
+.right-70{
+  width: 70%;
+  float: right;
+}
+.right-30 {
+  float: right;
+  width: 30%;
+}
+.left-30 {
+  float: left;
+  width: 30%;
+}
+div.clearfix {
+  clear:both;
 }
