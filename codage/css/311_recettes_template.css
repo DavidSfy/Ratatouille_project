@@ -1,0 +1,208 @@
+
+body{
+  text-align: center;
+  min-width: 960px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  width:100%;
+}
+
+p{
+  text-align: justify;
+  text-align-last:center;
+  line-height: 150%;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+h2{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  padding-bottom: 100px;
+  text-align: center;
+  font-weight: 500;
+  color: white;
+  font-size: 40px;
+}
+h3{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-style: italic;
+}
+header{
+  background-image: url(../../ressources/600_contacts/img/06_header.png);
+  background-size: cover;
+  padding-top: 20px;
+}
+.intro {
+  max-width: 50%;
+  min-width: 960px;
+  margin: 80px auto;
+  text-align: center;
+  overflow: hidden;
+}
+.wrapper{
+  min-width: 1000px;
+  margin: 80px auto;
+  overflow: hidden;
+  text-align: center;
+}
+.left-50 {
+  margin-left: 5%;
+  float: left;
+  width: 35%;
+}
+.right-50 {
+  float: right;
+  width: 60%;
+}
+div.clearfix {
+  clear:both;
+}
+.ingredient {
+  width:100%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f5f6f0;
+}
+.recette{
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f5f6f0;
+}
+.left-50 img{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.ingredient p, .recette p{
+  margin: 0 65px 50px 65px;
+  color: #515148;
+}
+
+.small_bar {
+  border: solid 1px;
+  height: 0px;
+  width: 80px;
+  margin: 0px auto 40px auto;
+}
+
+
+.recette_other{
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px auto;
+  background-color: yellow;
+}
+.recette_other img{
+  width: 150px;
+  height: 150px;
+}
+
+
+/*.right-50{
+  background-color: yellow;
+}
+.left-50{
+  background-color: green;
+}*/
+
+/*body{
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+header {
+  background-image: url("../../ressources/Pages_recettes/03b_header_sale.png");
+}
+p{
+  text-align: center;
+  line-height: 150%;
+}
+h1{
+  margin: 0;
+    text-align: center;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+h2{
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+  color: white;
+  padding-bottom: 90px;
+}
+h3{
+  margin-top: 0px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 36px;
+  font-style: italic;
+}
+.text{
+  width: 70%;
+  text-align: center;
+  margin: 70px auto 75px auto;
+}
+.wrapper {
+  min-width: 960px;
+  margin: 80px auto;
+  overflow: hidden;
+  display: flex;
+}
+.left{
+  float:left;
+  background-color: green;
+  margin: auto;
+}
+.right{
+  float: right;
+}
+.ingredient{
+  background-color: #f5f6f0;
+}
+.ingredient li{
+  line-height: 1.9em;
+  margin-left: 50px;
+}
+.left img{
+  width: 450px;
+  margin-bottom: 50px;
+}
+.recette{
+  margin-top: 0px;
+  background-color: #f5f6f0;
+}
+.recette li{
+  line-height: 1.9em;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.autre_recette{
+}
+.recette_other{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px auto;
+  background-color: yellow;
+}
+.recette_other img{
+  width: 150px;
+  height: 150px;
+}
+.clearfix{
+  clear: both;
+}*/
