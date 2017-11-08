@@ -3,10 +3,6 @@ body{
   margin: 0;
   font-family: 'Raleway', sans-serif;
 }
-.wrapper{
-  width: 960px;
-  margin: 0 auto;
-}
 p{
   text-align: center;
   line-height: 150%;
@@ -41,34 +37,27 @@ h3{
 }
 
 /* CORPS */
-.image{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.image img{
-  position: relative;
-  width:460px;
-  height:329px;
-  margin-bottom: 30px;
-}
-.image h3{
-  position:absolute;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  top: 600;
-  left:350;
-  width: 400px;
-  height:300px;
-  z-index: 1;
-}
+
 .text{
   text-align: center;
   margin: 50px auto;
   max-width: 70%;
 }
-.description{
-  width: 400px;
+.wrapper img{
+  position: relative;
+  width:400px;
+  height:300px;
+  margin-bottom: 30px;
+}
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
   margin-bottom: 80px;
+  text-align: center;
+}
+.description{
+  width: 460px;
+
+  display: inline-block;
+  margin: auto;
 }
