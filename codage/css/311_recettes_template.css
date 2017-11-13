@@ -60,7 +60,7 @@ header{
 .left-50 {
   margin-left: 5%;
   float: left;
-  width: 35%;
+  width: 25%;
 }
 .left-50 img{
   width: 100%;
@@ -68,7 +68,7 @@ header{
 }
 .right-50 {
   float: right;
-  width: 60%;
+  width: 70%;
 }
 div.clearfix {
   clear:both;
@@ -109,15 +109,17 @@ div.clearfix {
   margin: 0px auto 30px auto;
 }
 .recette_other{
-  width: 80%;
-  display: flex;
-  justify-content: space-evenly;
   margin: 5px auto;
+  display: inline-block;
 }
 .recette_other p{
   margin-top: 10px;
+  width: 150px;
+}
+.recette_other a{
+  display: inline-block;
+  vertical-align: top;
 }
 .recette_other img{
-  width: 200px;
-  height: 142px;
+  width: 150px;
 }

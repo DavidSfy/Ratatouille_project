@@ -41,31 +41,22 @@ h3{
 }
 
 /* CORPS */
-.image{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+.wrapper{
+  width: 960px;
+  text-align: center;
+  margin-bottom: 80px;
 }
 .image img{
-  position: relative;
   width:400px;
   height:300px;
-  margin-bottom: 50px;
 }
-.image h3{
-  position:absolute;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  top: 600;
-  left:350;
-  width: 400px;
-  height:300px;
-  z-index: 1;
+.image {
+  margin: 25px 25px;
+  display: inline-block;
 }
 .text{
+  width: 960px;
   text-align: center;
   margin: 50px auto;
   max-width: 70%;
-
 }

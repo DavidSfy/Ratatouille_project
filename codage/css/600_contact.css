@@ -95,25 +95,43 @@ div.clearfix {
 }
 
 /*TABLEAU*/
-
-table{
+.tableau {
+  padding: 50px 50px;
+  width: 900px;
+  background-color: #f5f6f0;
   margin: auto;
-  border: solid 2px black;
+}
+.titre_tableau{
+  margin-bottom: 50px;
+  font-size: 36px;
+  font-style: italic;
+}
+table{
+  text-align: center;
+  margin: auto;
   border-collapse: collapse;
 }
 td{
-  border: solid 1px #E6E6E6;
-  width: 250px;
+  font-family: 'Raleway', sans-serif;
+  color: #515148;
+  width: 150px;
   height: 50px;
   vertical-align: middle;
 }
-
-.legende{
+.ville{
+  text-align: center;
   height: 50px;
   font-size: 22px;
   font-weight: bold;
   color: brown;
+  margin-right: 20px;
 }
-.grey{
-  background-color: #E6E6E6;
+.legende{
+  text-align: right;
+  width: 200px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: bold;
+  color: brown;
+  padding-right: 30px;
 }
