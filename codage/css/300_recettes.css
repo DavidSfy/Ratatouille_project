@@ -1,59 +1,14 @@
-body{
-  min-width: 960px;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
-}
-p{
-  text-align: center;
-  line-height: 150%;
-}
-h1{
-  margin: 0;
-  text-align: center;
-  letter-spacing: 0.5px;
-  font-weight: 900;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: white;
-  padding-top: 100px;
-  padding-bottom: 50px;
-}
-h2{
-  text-align: center;
-  font-weight: 500;
-  font-size: 30px;
-  color: white;
-  padding-bottom: 90px;
-}
-h3{
-  margin-top: 0px;
-  padding-top: 30px;
-  text-align: center;
-  font-size: 50px;
-}
-.titre_recette {
+header{
   background-image: url("../../ressources/300_recettes/img/300_header.png");
-  background-size: cover;
 }
 
 /* CORPS */
 
-.text{
-  text-align: center;
-  margin: 50px auto;
-  max-width: 70%;
-}
 .wrapper img{
   position: relative;
   width:400px;
   height:300px;
   margin-bottom: 30px;
-}
-.wrapper{
-  width: 960px;
-  margin: 0 auto;
-  margin-bottom: 80px;
-  text-align: center;
 }
 .description{
   width: 460px;
