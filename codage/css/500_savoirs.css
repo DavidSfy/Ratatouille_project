@@ -1,18 +1,23 @@
 header {
   background-image: url("../../ressources/500_savoirs/img/05_header.png");
 }
-
-/* CORPS */
-
-.image img{
-  width:400px;
-  height:300px;
-}
-.image {
-  margin: 25px 25px;
-  display: inline-block;
-}
-.all_image{
+.wrapper{
   max-width: 1000px;
   display: inline-block;
+  margin-top: 50px;
+}
+.intro{
+  margin-bottom: 30px;
+}
+a{
+  margin: 0px 25px 50px 25px;
+  display: inline-block;
+}
+a img{
+  width:400px;
+  height:300px;
+  filter: grayscale();
+}
+img:hover{
+  filter: none;
 }

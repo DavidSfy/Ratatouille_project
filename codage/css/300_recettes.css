@@ -1,17 +1,17 @@
 header{
   background-image: url("../../ressources/300_recettes/img/300_header.png");
 }
-
-/* CORPS */
-
 .wrapper img{
   position: relative;
   width:400px;
   height:300px;
   margin-bottom: 30px;
 }
-.description{
+a{
   width: 460px;
   display: inline-block;
-  margin: auto;
+}
+
+img:hover{
+  border: 5px solid black;
 }

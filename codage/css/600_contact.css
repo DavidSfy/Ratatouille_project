@@ -20,7 +20,7 @@ div.clearfix {
   background-color: #f5f6f0;
 }
 .text_cadre p {
-  margin: 0 65px 50px 65px;
+  margin: 0 65px 20px 65px;
   color: #515148;
 }
 .right-50 img, .left-50 img {
@@ -33,8 +33,8 @@ div.clearfix {
   margin: 0px auto 40px auto;
 }
 .logo_sociaux {
-  display: flex;
-  margin: 30px 100px;
+  display: inline-block;
+  margin: 10px 10px;
 }
 .logo_sociaux img{
   width: 60px;

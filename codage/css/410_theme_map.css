@@ -1,8 +1,5 @@
-header.salees{
-  background-image: url("../../ressources/310_recettes_salees/img/310_header.png");
-}
-header.sucrees{
-  background-image: url("../../ressources/320_recettes_sucrees/img/320_header.png");
+header.themes{
+  background-image: url("../../ressources/400_themes/img/400_header.png");
 }
 
 /* CORPS */

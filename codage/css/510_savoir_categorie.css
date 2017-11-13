@@ -1,0 +1,48 @@
+header{
+  background-image: url("../../ressources/500_savoirs/img/05_header.png");
+}
+
+.wrapper{
+  vertical-align: middle;
+}
+.left-70 {
+  float: left;
+  width: 70%;
+}
+.right-70{
+  width: 70%;
+  float: right;
+}
+.right-30 {
+  float: right;
+  width: 30%;
+}
+.left-30 {
+  float: left;
+  width: 30%;
+}
+div.clearfix {
+  clear:both;
+}
+.text_cadre {
+  width: 80%;
+  text-align: center;
+  display: inline-block;
+  background-color: #f5f6f0;
+  overflow: hidden;
+}
+.text_cadre p {
+  text-align: justify;
+  margin: 0 auto 50px auto;
+  padding: 0 50px;
+  color: #515148;
+}
+.right-30 img, .left-70 img .right-70 img, .left-30 img{
+  height: 300px;
+}
+.small_bar {
+  border: solid 1px;
+  height: 0px;
+  width: 80px;
+  margin: 0px auto 30px auto;
+}
