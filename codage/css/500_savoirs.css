@@ -16,8 +16,7 @@ a{
 a img{
   width:400px;
   height:300px;
-  filter: grayscale();
 }
 img:hover{
-  filter: none;
+  filter: grayscale();
 }
