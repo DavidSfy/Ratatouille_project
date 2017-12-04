@@ -4,12 +4,17 @@ footer{
   text-align: center;
 }
 .footer_wrapper{
-  display: flex;
-  justify-content: space-evenly;
+  /*display: inline-block;*/
+
+
+  /*display: flex;
+  justify-content: space-evenly;*/
 }
 .footer_part{
-  width:40%;
+  display: inline-block;
+  width:200px;
   margin: 0 30px;
+  vertical-align: top;
 }
 .footer_part h3{
   font-size: 16px;
@@ -21,6 +26,7 @@ footer{
 }
 .footer_part a{
   color: white;
+  text-decoration: none;
 }
 .footer_part img{
   height: 130px;

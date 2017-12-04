@@ -9,7 +9,7 @@ header {
 .intro{
   margin-bottom: 30px;
 }
-a{
+.wrapper a{
   margin: 0px 25px 50px 25px;
   display: inline-block;
 }

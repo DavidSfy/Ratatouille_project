@@ -7,7 +7,7 @@ header{
   height:300px;
   margin-bottom: 30px;
 }
-a{
+.wrapper a{
   width: 460px;
   display: inline-block;
 }
