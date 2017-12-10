@@ -19,7 +19,6 @@ footer{
 .footer_part{
   display: inline-block;
   width:20%;
-  /*margin: 0 30px;*/
   vertical-align: top;
 }
 .footer_part h3{

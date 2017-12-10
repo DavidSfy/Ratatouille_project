@@ -15,6 +15,10 @@
   font-size: 12px;
   padding-right: 30px;
 }
+.recette a{
+  color: #F2526E;
+  /*text-decoration: underline;*/
+}
 header.salees{
   background-image: url("../../ressources/310_recettes_salees/img/310_header.png");
 }

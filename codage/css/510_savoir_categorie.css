@@ -3,7 +3,9 @@ header{
 }
 
 .wrapper{
+  margin: 40px auto;
   vertical-align: middle;
+  display: inline-block;
 }
 .left-70 {
   float: left;
@@ -25,7 +27,6 @@ div.clearfix {
   clear:both;
 }
 .text_cadre {
-  width: 80%;
   text-align: center;
   display: inline-block;
   background-color: #f5f6f0;
@@ -39,6 +40,7 @@ div.clearfix {
 }
 .right-30 img, .left-70 img .right-70 img, .left-30 img{
   height: 300px;
+  vertical-align: middle;
 }
 .small_bar {
   border: solid 1px;

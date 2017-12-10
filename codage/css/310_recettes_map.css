@@ -1,35 +1,43 @@
-header.salees{
+header.salees {
   background-image: url("../../ressources/310_recettes_salees/img/310_header.png");
 }
-header.sucrees{
+
+header.sucrees {
   background-image: url("../../ressources/320_recettes_sucrees/img/320_header.png");
 }
 
+
 /* CORPS */
-.wrapper{
+
+.wrapper {
   width: 960px;
   text-align: center;
   margin-bottom: 80px;
 }
-.image img{
-  width:400px;
-  height:400px;
+
+.image img {
+  width: 400px;
+  height: 400px;
 }
+
 .image {
   margin: 25px 25px;
   display: inline-block;
 }
-.image p{
+
+.image p {
   margin-top: 20px;
 }
-.fil_ariane{
+
+.fil_ariane {
   min-width: 960px;
   background-color: white;
   width: 100%;
   padding-top: 20px;
   padding-bottom: 0px;
 }
-.fil_ariane a{
+
+.fil_ariane a {
   font-family: 'Raleway', sans-serif;
   color: grey;
   text-transform: uppercase;

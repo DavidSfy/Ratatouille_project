@@ -24,6 +24,7 @@ a{
 }
 .menu img{
   width: 50px;
+  margin-top: 0px;
 }
 .menu-item:hover{
   background-color: grey;

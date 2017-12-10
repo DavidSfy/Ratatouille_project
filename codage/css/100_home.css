@@ -1,15 +1,15 @@
 h1{
-  margin-top: 200px;
   font-size: 70px;
-	
 }
 h2{
   margin-top: 50px;
-  padding-bottom: 250px;
+  padding-bottom: 170px;
   font-size: 50px;
 }
 header{
   background-image: url(../../ressources/100_homepage/img/01_header.png);
+  background-size: 100%;
+  width: 100%;
 }
 .left-50 {
   float: left;
@@ -33,7 +33,7 @@ div.clearfix {
   color: #515148;
 }
 .right-50 img, .left-50 img {
-  height: 415px;
+  height: 393px;
 }
 .small_bar {
   border: solid 1px;

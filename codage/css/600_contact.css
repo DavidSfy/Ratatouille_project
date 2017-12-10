@@ -23,8 +23,11 @@ div.clearfix {
   margin: 0 65px 20px 65px;
   color: #515148;
 }
-.right-50 img, .left-50 img {
-  height: 400px;
+.right-50 img {
+  height: 417px;
+}
+.left-50 img {
+  height: 404px;
 }
 .small_bar {
   border: solid 1px;
@@ -74,7 +77,7 @@ td{
   margin-right: 20px;
 }
 .legende{
-  text-align: right;
+  text-align: center;
   width: 200px;
   height: 50px;
   font-size: 22px;

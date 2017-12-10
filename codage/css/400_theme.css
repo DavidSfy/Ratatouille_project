@@ -16,7 +16,6 @@ header{
   margin: 25px 25px;
   display: inline-block;
 }
-
 .image img:hover{
   filter: grayscale();
 }
