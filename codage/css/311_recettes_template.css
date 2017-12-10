@@ -27,6 +27,10 @@ header.sucrees{
 header.themes{
   background-image: url("../../ressources/400_themes/img/400_header.png");
 }
+.intro p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
 .left-50 {
   margin-left: 5%;
   float: left;
