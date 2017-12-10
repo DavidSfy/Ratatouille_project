@@ -1,6 +1,20 @@
 .wrapper{
   margin: 40px auto;
 }
+.fil_ariane{
+  min-width: 960px;
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 0px;
+}
+.fil_ariane a{
+  font-family: 'Raleway', sans-serif;
+  color: grey;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-right: 30px;
+}
 header.salees{
   background-image: url("../../ressources/310_recettes_salees/img/310_header.png");
 }

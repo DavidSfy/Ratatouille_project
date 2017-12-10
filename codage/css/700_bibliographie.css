@@ -1,0 +1,24 @@
+header{
+  background-image: url(../../ressources/600_contacts/img/06_header.png);
+}
+.text_cadre {
+  width:960px;
+  display: inline-block;
+  background-color: #f5f6f0;
+}
+.small_bar {
+  border: solid 1px;
+  height: 0px;
+  width: 80px;
+  margin: 0px auto 40px auto;
+}
+ul{
+  margin-bottom: 40px;
+  list-style-type: circle;
+  margin-left: 200px;
+  width: auto;
+}
+li{
+  width: 200px;
+  line-height: 40px;
+}

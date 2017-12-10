@@ -4,16 +4,22 @@ footer{
   text-align: center;
 }
 .footer_wrapper{
-  /*display: inline-block;*/
-
-
-  /*display: flex;
-  justify-content: space-evenly;*/
+  min-width: 960px;
+}
+.footer_image{
+  display: inline-block;
+  width:100px;
+  margin: 0 auto;
+  vertical-align: top;
+}
+.footer_image img{
+  height: 130px;
+  margin-top: 30px;
 }
 .footer_part{
   display: inline-block;
-  width:200px;
-  margin: 0 30px;
+  width:20%;
+  /*margin: 0 30px;*/
   vertical-align: top;
 }
 .footer_part h3{
@@ -27,10 +33,6 @@ footer{
 .footer_part a{
   color: white;
   text-decoration: none;
-}
-.footer_part img{
-  height: 130px;
-  margin-top: 30px;
 }
 .white_small_bar{
   border: solid 1px white;
