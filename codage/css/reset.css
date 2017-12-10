@@ -28,6 +28,7 @@ table {
 header{
   background-size: cover;
   padding-top: 20px;
+
 }
 body{
   text-align: center;
@@ -77,4 +78,5 @@ p{
 .wrapper{
   min-width: 960px;
   margin: 80px auto;
+	overflow: hidden;
 }
