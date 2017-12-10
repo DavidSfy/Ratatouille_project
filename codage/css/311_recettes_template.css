@@ -17,7 +17,6 @@
 }
 .recette a{
   color: #F2526E;
-  /*text-decoration: underline;*/
 }
 header.salees{
   background-image: url("../../ressources/310_recettes_salees/img/310_header.png");
@@ -49,6 +48,9 @@ div.clearfix {
   text-align: center;
   display: inline-block;
   background-color: #f5f6f0;
+}
+.ingredient ul{
+  padding: 0px;
 }
 .ingredient li{
   line-height: 20px;

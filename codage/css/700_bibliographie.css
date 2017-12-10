@@ -19,6 +19,7 @@ ul{
   width: auto;
 }
 li{
-  width: 200px;
+  padding-left: 30px;
+  text-align: left;
   line-height: 40px;
 }
