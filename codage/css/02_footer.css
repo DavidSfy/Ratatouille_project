@@ -5,6 +5,7 @@ footer{
 }
 .footer_wrapper{
   min-width: 960px;
+  text-align: center;
 }
 .footer_image{
   display: inline-block;
