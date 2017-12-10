@@ -21,6 +21,7 @@ footer{
   display: inline-block;
   width:20%;
   vertical-align: top;
+  margin-right: 5px;
 }
 .footer_part h3{
   font-size: 16px;
@@ -29,6 +30,7 @@ footer{
 }
 .footer_part p{
   font-size: 12px;
+  text-align: center;
 }
 .footer_part a{
   color: white;
