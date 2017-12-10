@@ -1,9 +1,8 @@
-html, body, div, span,
+html, body, div,
 h1, h2, h3, h4, h5, h6, p,
-a, em, img, ol, ul, li,
-table, caption, td,
-article, aside, footer, header,
-menu, nav, section, {
+a, img, ol, ul, li,
+table, td, footer, header,
+menu, nav, {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -11,7 +10,7 @@ menu, nav, section, {
 	font: inherit;
 	vertical-align: baseline;
 }
-aside, footer, header, menu, nav, section {
+footer, header, menu, nav, section {
 	display: block;
 }
 body {
@@ -19,14 +18,6 @@ body {
 }
 ol, ul {
 	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
 }
 table {
 	border-collapse: collapse;
@@ -80,14 +71,10 @@ p{
   text-align-last:center;
 }
 .intro {
-  max-width: 50%;
-  min-width: 960px;
-  margin: 80px auto;
   text-align: justify;
-  overflow: hidden;
+  margin: 80px 5%;
 }
 .wrapper{
   min-width: 960px;
   margin: 80px auto;
-  overflow: hidden;
 }

@@ -72,7 +72,7 @@ td{
   height: 50px;
   font-size: 22px;
   font-weight: bold;
-  color: brown;
+  color: #F2526E;
   margin-right: 20px;
 }
 .legende{
@@ -81,6 +81,10 @@ td{
   height: 50px;
   font-size: 22px;
   font-weight: bold;
-  color: brown;
+  color: #F2526E;
   padding-right: 30px;
+}
+a{
+  color: #F2526E;
+
 }

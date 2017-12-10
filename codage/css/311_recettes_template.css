@@ -27,10 +27,6 @@ header.sucrees{
 header.themes{
   background-image: url("../../ressources/400_themes/img/400_header.png");
 }
-.intro p{
-  margin-left: 5%;
-  margin-right: 5%;
-}
 .left-50 {
   margin-left: 5%;
   float: left;
@@ -92,6 +88,8 @@ div.clearfix {
 .recette_other p{
   margin-top: 10px;
   width: 150px;
+  padding: 0 7px;
+  text-align: center;
 }
 .recette_other a{
   display: inline-block;
