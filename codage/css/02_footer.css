@@ -31,6 +31,7 @@ footer{
 .footer_part p{
   font-size: 12px;
   text-align: center;
+  margin: auto;
 }
 .footer_part a{
   color: white;
@@ -45,5 +46,4 @@ footer{
 #copyright{
   font-size: 8px;
   margin: 0;
-  text-align: center;
 }
